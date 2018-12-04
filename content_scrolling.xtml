@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/is_the_person_you_are_shopping_for_male_or_female" />
+
+        <Button
+            android:id="@+id/MaleBtn"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:text="@string/male" />
+
+        <Button
+            android:id="@+id/FemaleBtn"
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How old is the person you are shopping for?" />
+
+        <EditText
+            android:id="@+id/ageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What are their interests?" />
+
+        <CheckBox
+            android:id="@+id/checkSports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sports" />
+
+        <CheckBox
+            android:id="@+id/checkMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Music" />
+
+        <CheckBox
+            android:id="@+id/checkElectronics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electronics" />
+
+        <CheckBox
+            android:id="@+id/checkArt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Art" />
+
+        <CheckBox
+            android:id="@+id/checkCooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking" />
+
+        <CheckBox
+            android:id="@+id/checkMakeup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Makeup" />
+
+        <CheckBox
+            android:id="@+id/checkShopping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shopping" />
+
+        <CheckBox
+            android:id="@+id/checkGardening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gardening" />
+
+        <CheckBox
+            android:id="@+id/checkVideoGames"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:button="Video Games"
+            android:text="CheckBox" />
+
+        <Button
+            android:id="@+id/ResultBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
